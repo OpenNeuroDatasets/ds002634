@@ -12,5 +12,10 @@
         "https://www.biorxiv.org/content/10.1101/2020.02.20.958314v1"
     ],
     "DatasetDOI": "10.18112/openneuro.ds002634.v1.0.0",
-    "BIDSVersion": "1.2.2"
+    "BIDSVersion": "1.2.2",
+    "Funding": [
+        "Wellcome Trust [203730/Z/16/Z]",
+        "Wellcome Trust [203139/Z/16/Z]",
+        "NIHR Oxford Health Biomedical Research Centre"
+    ]
 }
