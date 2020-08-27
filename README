@@ -3,24 +3,24 @@ Data in this repository has been acquired as part of Nicole Eichert's PhD projec
 Data in this repository has been used in multiple projects that involved different collaborators. For project-specific acknowledgements, please refer to the relevant references.
 
 Derived data for the publication Eichert et al. 2020 is organized as follows:
-- Figure 1C - breathing traces:
+# Figure 1C - breathing traces:
 * cropped individual breathing traces are stored in `/derivatives/sub-XX/beh/sub-XX_breathing-traces.pkl`. The file can be loaded using Python's pandas package.
 * raw data containing subject's breathing traces during the functional scan is stored in `/sub-XX/beh/sub-XX/sub-XX_biopac.mat`
 
-- Figure 2 and Figure 3 - group level fMRI results:
+# Figure 2 and Figure 3 - group level fMRI results:
 * task: 'ArtVoc' for the basic localizer task and 'Factorial' for the syllable production task
 * contrast: lip, tongue, vowel for 'ArtVoc' (Figure 3); vocalization, articulation for 'Factorial' (Figure 2)
 * volumetric results in MNI space are stored in `/derivatives/group/func/task/group_task-{task}_{contrast}_zstat1.nii.gz`
 * surface count maps are stored in `/derivatives/group/func/task/group_task-{task}_{contrast}_{hemi}_32k_fs_LR.func.gii`
 
-- Figure 4
+# Figure 4
 * average T1w/T2w and thickness maps are stored in `/derivatives/group/anat`
 * averate mpm maps are stored in `/derivatives/group/mpm`
 * individual surface maps are stored in `derivatives/sub-XX/anat` and `derivatives/sub-XX/mpm`
 
-- Figure 5
+# Figure 5
 * numerical values underlying the figures are stored as csv-files in `/derivatives/group/mpm/`
 
-- Surface files for display of surface maps
+# Surface files for display of surface maps
 * average inflated surfaces are stored in `/derivatives/group/anat/group.{hemi}.inflated.32k_fs_LR.surf.gii` (and 164k)
 * individual native midthickness surfaces are stored in `/derivatives/sub-XX/anat/sub-XX.{hemi}.midthickness.native.surf.gii`
