@@ -4,8 +4,8 @@ Data in this repository has been used in multiple projects that involved differe
 
 Derived data for the publication Eichert et al. 2020 is organized as follows:
 ### Figure 1C - breathing traces:
-* cropped individual breathing traces are stored in `/derivatives/sub-XX/beh/sub-XX_breathing-traces.pkl`. The file can be loaded using Python's pandas package.
-* raw data containing subject's breathing traces during the functional scan is stored in `/sub-XX/beh/sub-XX/sub-XX_biopac.mat`
+* cropped individual breathing traces are stored in `/derivatives/sub-{sub}/beh/sub-{sub}_breathing-traces.pkl`. The file can be loaded using Python's pandas package.
+* raw data containing subject's breathing traces during the functional scan is stored in `/sub-{sub}/beh/sub-{sub}/sub-{sub}_biopac.mat`
 
 ### Figure 2 and Figure 3 - group level fMRI results:
 * task: 'ArtVoc' for the basic localizer task and 'Factorial' for the syllable production task
@@ -16,11 +16,16 @@ Derived data for the publication Eichert et al. 2020 is organized as follows:
 ### Figure 4
 * average T1w/T2w and thickness maps are stored in `/derivatives/group/anat`
 * averate mpm maps are stored in `/derivatives/group/mpm`
-* individual surface maps are stored in `derivatives/sub-XX/anat` and `derivatives/sub-XX/mpm`
+* individual surface maps are stored in `derivatives/sub-{sub}/anat` and `derivatives/sub-{sub}/mpm`
 
 ### Figure 5
-* numerical values underlying the figures are stored as csv-files in `/derivatives/group/mpm/`
+* numerical values underlying the figures are stored as csv-files in `/derivatives/group/mpm/*csv`
 
 ### Surface files for display of surface maps
 * average inflated surfaces are stored in `/derivatives/group/anat/group.{hemi}.inflated.32k_fs_LR.surf.gii` (and 164k)
-* individual native midthickness surfaces are stored in `/derivatives/sub-XX/anat/sub-XX.{hemi}.midthickness.native.surf.gii`
+* individual native midthickness surfaces are stored in `/derivatives/sub-{sub}/anat/sub-{sub}.{hemi}.midthickness.native.surf.gii`
+
+Additional notes:
+- the first 25 volumes of all individual bold task scans need to be discarded prior to analysis.
+These volumes were acquired during the time, where noise-cancelling headphones 'learned' the scanner noise
+- the fieldmap for subject 11 can only be applied to the 'ArtVoc' bold task scan and not to the 'Factorial' bold task scan
