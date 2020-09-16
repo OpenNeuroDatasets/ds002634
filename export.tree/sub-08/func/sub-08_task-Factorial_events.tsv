@@ -1,0 +1,41 @@
+onset	duration	condition
+0	22	overt speech
+22	8	rest
+30	22	mouthing
+52	8	rest
+60	22	vowel
+82	8	rest
+90	22	covert speech
+112	8	rest
+120	22	mouthing
+142	8	rest
+150	22	overt speech
+172	8	rest
+180	22	covert speech
+202	8	rest
+210	22	vowel
+232	8	rest
+240	22	mouthing
+262	8	rest
+270	22	covert speech
+292	8	rest
+300	22	overt speech
+322	8	rest
+330	22	vowel
+352	8	rest
+360	22	covert speech
+382	8	rest
+390	22	vowel
+412	8	rest
+420	22	mouthing
+442	8	rest
+450	22	overt speech
+472	8	rest
+480	22	vowel
+502	8	rest
+510	22	overt speech
+532	8	rest
+540	22	covert speech
+562	8	rest
+570	22	mouthing
+592	8	rest
