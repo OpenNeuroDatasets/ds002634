@@ -1,0 +1,16 @@
+{
+    "Name": "Project_larynx",
+    "License": "CC0",
+    "Authors": [
+        "Eichert, N",
+        "Watkins, KE"
+    ],
+    "Acknowledgements": "N.E. is a Wellcome Trust Doctoral student in Neuroscience at the University of Oxford [203730/Z/16/Z]. The project was supported by the NIHR Oxford Health Biomedical Research Centre. The Wellcome Centre for Integrative Neuroimaging is supported by core funding from the Wellcome Trust [203139/Z/16/Z]. \nData in this repository has been used in multiple projects that involved different collaborators. For project-specific acknowledgements, please refer to the relevant references.",
+    "HowToAcknowledge": "Data in this repository has been used in multiple projects. When using the data in the subfolders /anat and /dwi, please cite this paper: https://www.biorxiv.org/content/10.1101/645234v3.full and consider including the following message: 'This data was obtained from the OpenNeuro database. Its accession number is XXXX'",
+    "ReferencesAndLinks": [
+        "https://www.biorxiv.org/content/10.1101/645234v3.full",
+        "https://www.biorxiv.org/content/10.1101/2020.02.20.958314v1"
+    ],
+    "DatasetDOI": "10.18112/openneuro.ds002634.v1.0.0",
+    "BIDSVersion": "1.2.2"
+}
